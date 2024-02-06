@@ -1,0 +1,50 @@
+.projects-container {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    padding: 20px; 
+    margin-top: 0px; 
+  }
+  
+  .project-card {
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    overflow: hidden; 
+    display: grid;
+    flex-direction: column;
+  }
+
+  .project-info {
+    padding: 15px; 
+    background-color: #f9f9f9;
+  }
+  
+  .project-image {
+    width: 100%; 
+    height:auto;
+    max-height: 500px;
+    object-fit: cover; 
+    display: block;
+  }
+  
+  .project-description {
+    margin: 0 0 10px 0;
+    padding: 15px; 
+    color: #8093ffc7;
+    text-align: center; 
+    font-size: 2em; 
+    margin-top: auto;
+  }
+
+  .project-brief {
+    padding: 15px; 
+    background-color: #f9f9f9; 
+    font-size: 0.9em; 
+    color: #333; 
+  }
+
+  h1 {
+    color: #8093ffc7;
+  }
+
+  
